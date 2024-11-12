@@ -50,7 +50,7 @@ section.hero {
             border-radius: 5rem;
             transition: scale 350ms;
 
-            &.buy {
+            &.buy {/*aqui não temos espaço entre 0 "&" e "buy" porque ela esta atrelado ao "button como esta no HTML*/
                 padding: 1.5rem 3rem;
                 background-color: var(--snitap-sun);
             }
@@ -67,7 +67,7 @@ section.hero {
             }
         }
 
-        & .shadow {
+        & .shadow {/*fazendo multiplas sombras*/
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 9px 9px rgba(0, 0, 0, 0.09),
                 0 20px 12px rgba(0, 0, 0, 0.05), 0 36px 15px rgba(0, 0, 0, 0.01);
         }
@@ -138,7 +138,7 @@ section.hero {
         opacity: 1;
     }
 }
-
+/*animações das palavras*/
 @keyframes slideUp {
     0%,
     22% {
